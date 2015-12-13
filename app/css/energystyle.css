@@ -1,0 +1,81 @@
+#map-container, #side-container, #side-container li {
+  float: left;
+}
+#map-container {
+  width: 500px;
+  height: 600px;
+}
+#side-container {
+  background-color: white;
+  color: black;
+  border: 1px solid #bbb;
+  margin-right: 5px;
+  padding: 2px 4px;
+  text-align: right;
+  width: 260px;
+}
+#side-container ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#side-container li input {
+  font-size: 0.85em;
+  width: 210px;
+}
+#side-container .dir-label {
+  font-weight: bold;
+  padding-right: 3px;
+  text-align: right;
+  width: 40px;
+}
+#dir-container {
+  height: 525px;
+  overflow: auto;
+  padding: 2px 4px 2px 0;
+}
+#dir-container table {
+  font-size: 1em;
+  width: 100%;
+}
+#energy-map-app div {
+  margin-left: auto ;
+  margin-right: auto ;
+}
+#energy div{
+  float:left;
+  display:inline;
+  vertical-align:middle;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+#energy img{
+  float:left;
+  display:inline;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#footer {
+  position: relative;
+  margin-top: -150px; /* negative value of footer height */
+  height: 150px;
+  clear:both;
+  padding-top:20px;
+} 
+
+#map{
+  background: url(../images/heroPic2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: auto;
+  min-height: 1400px;  
+  padding-top: 60px;
+  color: #ffffff;
+  position: relative;
+}
