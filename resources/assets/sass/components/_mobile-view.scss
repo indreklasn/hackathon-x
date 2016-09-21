@@ -1,3 +1,8 @@
+@media (min-width: 1200px) {
+  .container {
+    width: 960px; }
+}
+
 @media only screen and (max-width: 608px){
 nav#menu span.fa.fa-bars {
 left: 60px;

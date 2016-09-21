@@ -1,0 +1,361 @@
+span.typed-cursor {
+  top: -5px;
+  position: relative;
+}
+
+.add-margin {
+  margin-top: 200px;
+}
+
+.space {
+  padding-top: 40px;
+}
+
+#cta {
+  background: #282f35;
+  padding: 4% 0;
+}
+
+.nopadding {
+  padding: 0;
+  margin: 0;
+}
+
+.portfolio-item .hover-bg {
+  height: 280px;
+  overflow: hidden;
+  position: relative;
+}
+
+.hover-bg .hover-text {
+  position: absolute;
+  text-align: center;
+  margin: 0 auto;
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.66);
+  padding: 30% 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.hover-bg .hover-text > h5 {
+  opacity: 0;
+  transform: translateY(100%);
+  transition: all 0.3s;
+}
+
+.hover-bg:hover .hover-text > h5 {
+  opacity: 1;
+  -webkit-backface-visibility: hidden;
+  transform: translateY(0);
+}
+
+.hover-bg .hover-text > .hline {
+  opacity: 0;
+  transform: translateY(0);
+  transition: all 0.3s;
+}
+
+.hover-bg:hover .hover-text > .hline {
+  opacity: 1;
+  -webkit-backface-visibility: hidden;
+  transform: translateY(100%);
+}
+
+.hover-bg:hover .hover-text {
+  opacity: 1;
+}
+
+.hline {
+  height: 5px;
+  width: 30px;
+  border-top: 2px solid #f1f1f1;
+  margin: 0 auto;
+}
+
+.hover-text p.lead {
+  color: #c59a6d;
+}
+
+a.btn.read-more-btn {
+  text-transform: uppercase;
+  background: #c59a6d;
+  color: #282f35;
+  word-spacing: 2px;
+  padding: 7px 30px;
+  border-radius: 2px;
+  font-size: 12px;
+  color: #ffffff;
+  transition: all 0.5s;
+}
+
+a.btn.read-more-btn:hover {
+  background: #222222;
+  color: #ffffff;
+}
+
+a.btn.send-btn {
+  text-transform: uppercase;
+  background: #63b8ff;
+  color: #282f35;
+  padding: 15px 35px;
+  border-radius: 0;
+  font-size: 12px;
+  color: #ffffff;
+  transition: all 0.5s;
+}
+
+a.btn.send-btn:hover {
+  background: transparent;
+  border: 1px solid #63b8ff;
+  color: #ffffff;
+}
+
+ul, ol {
+  padding: 0;
+}
+
+a.btn.send-btn2 {
+  text-transform: uppercase;
+  background: #63b8ff;
+  color: #282f35;
+  padding: 15px 35px;
+  border-radius: 0;
+  font-size: 12px;
+  color: #ffffff;
+  transition: all 0.5s;
+  margin-top: 20px;
+}
+
+a.btn.send-btn2:hover {
+  background: transparent;
+  border: 1px solid #63b8ff;
+  color: #63b8ff;
+  background-color: #fff;
+}
+
+.team {
+  border: 1px solid #c3c3c3;
+  padding: 70px 20px;
+  text-align: center;
+  opacity: 0.7;
+  transition: all 0.8s;
+  max-height: 340px;
+  margin-bottom: 30px;
+}
+
+.team hr {
+  border-width: 2px;
+  border-color: #dcc2a7;
+}
+
+.team:hover {
+  opacity: 1;
+  border: 1px solid #222;
+}
+
+.team img {
+  width: 80px;
+  margin: 0 auto;
+}
+
+.owl-theme .owl-controls .owl-page span {
+  display: block;
+  width: 10px;
+  height: 10px;
+  margin: 2px 5px;
+  filter: Alpha(Opacity=50);
+  opacity: 0.5;
+  border-radius: 0;
+  background: #fff;
+}
+
+#contact {
+  background: #282f35;
+  padding: 100px 0;
+  color: #ffffff;
+}
+
+
+
+address strong {
+  text-transform: uppercase;
+  font-style: normal;
+  font-family: 'Montserrat', sans-serif;
+}
+
+address:before {
+  content: "\f041";
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 20px;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #fff;
+  vertical-align: middle;
+  margin-right: 15px;
+  margin-left: -30px;
+}
+
+address {
+  font-style: italic;
+  font-size: 14px;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 1px;
+}
+
+#contact input.form-control,
+#contact textarea.form-control {
+  margin-bottom: 30px;
+}
+
+#contact .form-control {
+  display: block;
+  width: 100%;
+  height: 40px;
+  padding: 7px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #fff;
+  background-color: #1e2429;
+  background-image: none;
+  border: 0;
+  border-top: 2px solid transparent;
+  border-radius: 0;
+  box-shadow: none;
+  transition: none;
+  transition: all 0.5s;
+}
+
+#contact .form-message {
+  display: block;
+  width: 100%;
+  height: 200px;
+  padding: 7px 12px;
+  font-size: 16px;
+  line-height: 1.42857143;
+  color: #fff;
+  background-color: #1e2429;
+  background-image: none;
+  border: 0;
+  border-top: 2px solid transparent;
+  border-radius: 0;
+  box-shadow: none;
+  transition: none;
+  transition: all 0.5s;
+}
+
+#contact .form-control:focus {
+  border-color: #63b8ff;
+  outline: 0;
+  box-shadow: none;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-style: italic;
+}
+
+input:-moz-placeholder, textarea:-moz-placeholder {
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-style: italic;
+}
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-style: italic;
+ }
+
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-style: italic;
+}
+
+.main-#slogan {
+  color: #fff;
+  font-size: 34px;
+  font-family: "Montserrat"; }
+
+.call-to-action-header {
+  font-size: 32px;
+  font-family: "Montserrat";
+  color: #63b8ff;
+  padding: 20px;
+  box-shadow: -2px 1px 10px -1px #c7c7c7; }
+
+.call-to-action-box-header {
+  font-size: 0.75em;
+  font-family: "Montserrat";
+  color: #63b8ff; }
+  .call-to-action-box-header:hover {
+    font-size: 1em;
+    font-family: "Montserrat";
+    color: red; }
+
+.icon-demo {
+  margin: 0 auto;
+  display: block;
+  width: 80px; }
+
+.desc-p {
+  color: #8c8c8c; }
+
+.bio-name {
+  font-family: "Montserrat";
+  color: #595959;
+  font-size: 11px; }
+
+.call-to-action-header-dark {
+  font-size: 32px;
+  font-family: "Montserrat";
+  color: #63b8ff;
+  padding: 20px;
+  border: solid 3px #63b8ff; }
+
+.custom-btn-sign-up {
+  z-index: 10000;
+  border: solid 2px #63b8ff;
+  margin: 0 auto;
+  border-radius: 0;
+  width: 200px;
+  margin-left: 20px;
+  margin-top: 25px; }
+
+.custom-btn-sign-up2 {
+  border: solid 2px #fff;
+  margin: auto 0;
+  border-radius: 0;
+  width: 200px;
+  color: #fff;
+  margin-left: 20px;
+  margin-top: 25px;
+  transition: all 450ms ease-in-out;
+
+ }
+
+.custom-btn-sign-up2:hover {
+  color: #fff;
+  background-color: #63b8ff;
+  border-radius: 0;
+}
+
+#head-title {
+  color: #c0e2ff; }
+
+.main-page-slogan {
+  font-size: 22px; }

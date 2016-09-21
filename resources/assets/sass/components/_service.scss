@@ -1,0 +1,42 @@
+#meet-us,
+#services,
+#works,
+a.down-btn span.fa.fa-angle-down {
+  font-size: 26px;
+  border: 1px solid #fff;
+  border-radius: 2px;
+  padding: 7px 5px;
+  position: relative;
+  cursor: pointer;
+  color: #fff;
+  margin-top: 30px;
+}
+
+.service {
+  box-shadow: -2px 1px 10px -1px #c7c7c7;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  transition: all 0.3s;
+  position: relative;
+  padding: 60px 25px;
+}
+
+.service:hover > h4,
+.service:hover > span.fa {
+  color: #8c8c8c;
+}
+
+.service:hover {
+  border-color: #c59a6d;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  cursor: pointer;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.service p {
+  font-size: 14px;
+  padding-top: 20px;
+  font-family: 'Lato', sans-serif;
+}

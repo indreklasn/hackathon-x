@@ -1,0 +1,15 @@
+a.btn.go-to-btn {
+  text-transform: uppercase;
+  border: 1px solid #63b8ff;
+  word-spacing: 2px;
+  padding: 7px 30px;
+  border-radius: 2px;
+  font-size: 12px;
+  color: #ffffff;
+  transition: all 0.5s;
+}
+
+a.btn.go-to-btn:hover {
+  background: #63b8ff;
+  color: #282f35;
+}
