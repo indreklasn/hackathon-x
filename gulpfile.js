@@ -115,7 +115,7 @@ gulp.task('serve', ['sass', 'javascript', 'fonts'], function () {
     notify: false,
     port: 9000,
     server: {
-      baseDir: ['.tmp', 'public'],
+      baseDir: ['.tmp', ''],
       routes: {
         '/bower_components': 'bower_components'
       }
