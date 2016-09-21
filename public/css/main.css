@@ -167,12 +167,12 @@ nav#menu span.fa.fa-bars:hover {
   background-color: transparent; }
 
 .close:hover {
-  background: #63b8ff;
+  background: #333;
   color: #ffffff;
   opacity: 1; }
 
 .close {
-  background: #fff;
+  background: #63b8ff;
   padding: 10px 12px;
   opacity: 1;
   -webkit-transition: all 0.3s;
