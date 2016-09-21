@@ -36,7 +36,6 @@ gulp.task('sprites', function() {
 
     // Pipe image stream
     spriteData.img
-      .pipe(gulp.dest('.tmp/images'))
       .pipe(gulp.dest('dist/images'))
 
     // Pipe CSS stream
